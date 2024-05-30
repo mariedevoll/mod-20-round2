@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React, { useState } from "react";
-import Header from "./components/Header";
-import Nav from "./components/NavTab";
-import Footer from "./components/Footer";
-import Page from "./components/Page";
+import Header from "./Components/header";
+import Nav from "./Components/nav";
+import Footer from "./Components/footer";
+import Page from "./Components/page";
 
 function App() {
     const [pages] = useState([
@@ -17,12 +17,11 @@ function App() {
         }, {
             name: "Contact",
         }
-    ]);
+    ])
 
     const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  return (
-     <div>
+  return <div>
         <Header>
             <Nav pages={pages} setCurrentPage={setCurrentPage} currentPage={currentPage}/>
         </Header>
@@ -31,7 +30,6 @@ function App() {
         </main>
         <Footer/>
     </div>
-  );
 }
 
 export default App;

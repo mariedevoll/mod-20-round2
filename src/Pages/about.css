@@ -1,0 +1,45 @@
+:root {
+    --lightpink: #ffc0cb;
+    --mediumpink: #df6e81;
+    --lightgreen: #8fee8f;
+    --navyblue: #060648;
+    --links: #2222e5;
+  }
+
+.about-text {
+    margin-top: 15px;
+    background-color: var(--lightpink);
+    border: solid 1px var(--navyblue);
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
+}
+
+.about-section {
+    background-color: var(--mediumpink);
+    padding: 0 20px 20px 20px;
+    margin: auto;
+}
+
+.about-section p {
+    font-size: 1rem;
+    padding: 0 20px 15px 20px;
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.about-section h2 {
+    border-bottom: 3px solid var(--lightgreen);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.selfie {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
