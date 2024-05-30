@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
 import React, { useState } from "react";
-import Header from "./Components/header";
-import Nav from "./Components/nav";
-import Footer from "./Components/footer";
-import Page from "./Components/page";
+import Header from "./Components/Header/header";
+import Nav from "./Components/Nav/nav";
+import Footer from "./Components/Footer/footer";
+import Page from "./Components/Page/page";
 
 function App() {
     const [pages] = useState([
