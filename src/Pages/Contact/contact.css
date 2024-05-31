@@ -1,0 +1,47 @@
+@import '../../App.css';
+
+.contact-section {
+    background-color: var(--lightpink);
+    padding: 0 0 20px 0;
+}
+
+.contact-section h1 {
+    color: var(--lightpink);
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.contact-section label {
+    font-weight: 500;
+}
+
+.contact-form {
+    color: var(--navyblue);
+    background-color: var(--mediumpink);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, .3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, .5);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--lightpink);
+}
