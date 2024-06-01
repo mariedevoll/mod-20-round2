@@ -1,0 +1,62 @@
+@import '../../App.css';
+
+.nav-container {
+    margin: 20px 0 0 0;
+    background-color: var(--mediumpink);
+    padding: 25px 0 0 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .3);
+    width: 100vw;
+    overflow: hidden;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--navyblue);
+    padding: 10px 15px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: var(--lightpink);
+}
+
+.active .nav-link {
+    border: solid 2px var(--lightgreen);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+    transition: all .3s ease;
+}
+
+@media (max-width: 770px) {
+    .nav-list{
+        font-size: 1em;
+    }
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-list {
+        align-items: center;
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+}

@@ -1,22 +1,23 @@
 import React from 'react';
+import './portfolio.css';
 
 function PortfolioPage() {
     const projects = [
         {
-            title: "",
-            image: "",
-            deplayedLink: "",
-            githubLink: ""
+            title: "Weather Dashboard",
+            image: "public/Images/weather.png",
+            deployedLink: "https://mariedevoll.github.io/module-6-challenge/",
+            githubLink: "https://github.com/mariedevoll/module-6-challenge"
         }, {
-            title: "",
-            image: "",
-            deplayedLink: "",
-            githubLink: ""
+            title: "Blog Post",
+            image: "public/Images/blogpost.png",
+            deployedLink: "https://mariedevoll.github.io/module-4-challenge/",
+            githubLink: "https://github.com/mariedevoll/module-4-challenge"
         }, {
-            title: "",
+            title: "Trivia Game",
             image: "",
-            deplayedLink: "",
-            githubLink: ""
+            deployedLink: "https://lockedjce.github.io/Group-Trivia-Website/",
+            githubLink: "https://github.com/LockedJCE/Fetch-Facts"
         },
     ];
 
@@ -31,8 +32,8 @@ function PortfolioPage() {
                             <img src={project.image} alt={project.title} className='project-image'></img>
                             <div className='overlay'>
                                 <div className='project-link'>
-                                    <a href={project.deplayedLink} target='_blank' rel='noopener noreferrer'>Deployed Link</a>
-                                    <a href={project.githubLinkLink} target='_blank' rel='noopener noreferrer'>Github Link</a>
+                                    <a href={project.deployedLink} target='_blank' rel='noopener noreferrer'>Deployed Link</a>
+                                    <a href={project.githubLink} target='_blank' rel='noopener noreferrer'>Github Link</a>
                                 </div>
                             </div>
                         </div>

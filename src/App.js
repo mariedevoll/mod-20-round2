@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+ import './App.css';
 import React, { useState } from "react";
 import Header from "./Components/Header/header";
 import Nav from "./Components/Nav/nav";
