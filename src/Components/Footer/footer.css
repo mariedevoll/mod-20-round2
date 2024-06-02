@@ -1,0 +1,36 @@
+@import '../../App.css';
+
+.footer {
+    color: var(--navyblue);
+    background-color: var(--lightgreen);
+    border-top: 2px solid var(--navyblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.footer-icon {
+    text-decoration: none;
+    color: var(--lightpink);
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 250ms linear;
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+}
+
+.footer-icon:hover {
+    color: var(--mediumpink);
+}
+
+.footer div {
+    font-weight: 500;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
