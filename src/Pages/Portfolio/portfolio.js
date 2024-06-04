@@ -1,6 +1,8 @@
 import React from 'react';
 import './portfolio.css';
 import weather from '../../Images/weather.png'
+import blogpost from '../../Images/blogpost.png'
+import svglogo from '../../Images/svglogo.png'
 
 function PortfolioPage() {
     const projects = [
@@ -11,14 +13,14 @@ function PortfolioPage() {
             githubLink: "https://github.com/mariedevoll/module-6-challenge"
         }, {
             title: "Blog Post",
-            image: "public/Images/blogpost.png",
+            image: blogpost,
             deployedLink: "https://mariedevoll.github.io/module-4-challenge/",
             githubLink: "https://github.com/mariedevoll/module-4-challenge"
         }, {
-            title: "Trivia Game",
-            image: "",
-            deployedLink: "https://lockedjce.github.io/Group-Trivia-Website/",
-            githubLink: "https://github.com/LockedJCE/Fetch-Facts"
+            title: "SVG Generator",
+            image: svglogo,
+            // deployedLink: "https://lockedjce.github.io/Group-Trivia-Website/",
+            githubLink: "https://github.com/mariedevoll/module-10-challengeLinks"
         },
     ];
 

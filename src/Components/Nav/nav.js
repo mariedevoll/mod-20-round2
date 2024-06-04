@@ -12,7 +12,7 @@ console.log(pages);
                 {pages.map((page) => (
                      <li className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`}>
                         <span className='nav-link' onClick={() => setCurrentPage(page)}>
-                            {page.name} hello
+                            {page.name} 
                         </span>
                     </li>
                 ))}

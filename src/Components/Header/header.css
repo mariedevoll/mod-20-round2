@@ -15,7 +15,7 @@
     }
 }
 
-.banner-img {
+.selfie {
     width: 100vw;
     height: auto;
     max-height: 170px;
@@ -25,3 +25,4 @@
     transform: translateY(4px);
     border: 2px solid var(--lightgreen);
 }
+
