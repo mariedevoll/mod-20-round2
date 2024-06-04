@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import './nav.css';
 
 function Nav ({pages, setCurrentPage, currentPage}) {

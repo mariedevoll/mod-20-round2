@@ -4,7 +4,7 @@ import "./about.css"
 function AboutPage() {
     return <section className="about-section">
         <h1>About Me</h1>
-        <img src="public/Images/selfie.png" className="selfie"></img>
+        <img src="public/Images/selfie.png" alt="selfie" className="selfie"></img>
         <h2>Software Engineer, Retail Expert</h2>
         <p className="centered">
             My name is Marie DeVoll and I am currently enrolled in a full stack web development coding course through UC Berkeley. 
