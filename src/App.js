@@ -6,8 +6,9 @@ import Nav from "./Components/Nav/nav";
 import Footer from "./Components/Footer/footer";
 import Page from "./Components/Page/page";
 
+
 function App() {
-    const [pages] = useState([
+    const pages = [
         {
             name: "About",
         }, {
@@ -17,7 +18,7 @@ function App() {
         }, {
             name: "Contact",
         }
-    ])
+    ]
 
     const [currentPage, setCurrentPage] = useState(pages[0]);
 

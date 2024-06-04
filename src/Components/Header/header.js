@@ -1,7 +1,7 @@
 import React from 'react';
 import "./header.css";
 
-function Header(props) {
+function Header({children}) {
     return (
         <header className="header">
             <section>
@@ -10,6 +10,7 @@ function Header(props) {
             <h1>
                 Hi, my name is Marie DeVoll
             </h1>
+            {children}
         </header>
     );
 }

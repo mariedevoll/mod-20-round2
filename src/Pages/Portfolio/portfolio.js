@@ -1,11 +1,12 @@
 import React from 'react';
 import './portfolio.css';
+import weather from '../../Images/weather.png'
 
 function PortfolioPage() {
     const projects = [
         {
             title: "Weather Dashboard",
-            image: "public/Images/weather.png",
+            image: weather,
             deployedLink: "https://mariedevoll.github.io/module-6-challenge/",
             githubLink: "https://github.com/mariedevoll/module-6-challenge"
         }, {

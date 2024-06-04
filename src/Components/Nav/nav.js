@@ -1,23 +1,22 @@
 import React, { useEffect } from 'react';
 import './nav.css';
 
-function Nav(props) {
-    const {pages = [], setCurrentPage, currentPage,} = props;
+function Nav ({pages, setCurrentPage, currentPage}) {
 
-    useEffect(() => {
-        document.title = currentPage.name;
-    }, [currentPage]);
-
+    // useEffect(() => {
+    //     document.title = currentPage.name;
+    // }, [currentPage]);
+console.log(pages);
     return (
         <nav className='nav-container'>
             <ul className='nav-list'>
-                {pages.map((page) => {
-                    <li className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`}>
+                {pages.map((page) => (
+                     <li className={`nav-item ${currentPage.name === page.name ? 'active' : ''}`}>
                         <span className='nav-link' onClick={() => setCurrentPage(page)}>
-                            {page.name}
+                            {page.name} hello
                         </span>
                     </li>
-                })}
+                ))}
             </ul>
         </nav>
     );
