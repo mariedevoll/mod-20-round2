@@ -1,0 +1,13 @@
+@import '../../App.css';
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .resume-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
